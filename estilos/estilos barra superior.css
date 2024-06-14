@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: rgba(155, 157, 160, 0.589);
+    color: black;
+}
+.logo{
+    margin-left: 100px;
+    margin-top: 50px;
+    position: absolute;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    perspective: 200px;
+    font-family: Arial;
+    position: absolute;
+    font-family: letra;
+}
+.imagen_superior1{
+    position: absolute;
+    width: 660px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.imagen_superior2{
+    position: absolute;
+    width: 660px;
+    margin-top: 40px;
+    margin-left: 1225px;
+}
+@font-face{
+    font-family: letra;
+    src: url("../letra/ALGER.TTF");
+}
+.reservas{
+    font-family: letra;
+}
+.menus{
+    font-family: letra;
+}
+.inicios{
+    font-family: letra;
+}
+.carta{
+    font-family: letra;
+}
+.servicios{
+    font-family: letra;
+}
+.menu ul{
+    display: flex;
+    margin: auto;
+}
+
+.menu li{
+    list-style: none;
+    padding: 15px 20px;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+    color: #000000;
+    cursor: pointer;
+    transition: all 300ms;    
+}
+
+.menu ul li ul{
+    *display: none;
+    flex-direction: column;
+    position: absolute;
+    background: rgba(112, 255, 10, 0.459);
+    margin-top: 15px;
+    transform: rotateY(240deg) scale(0);
+    transition: all 1s;
+    box-shadow: 1px 1px 10px 0px black;
+}
+
+.menu ul li:hover > ul{
+    transform: rotateY(0deg) scale(1);
+    transition: all 1s;
+}
+
+.menu ul li ul:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 8px solid rgba(112, 255, 10, 0.459);
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+.menu ul li ul li ul li{
+    position: relative;
+}
+.menu ul li ul li:hover > ul{
+    transform: rotateY(0deg) scale(1);
+}
+
+.menu ul li ul li ul{
+    right: -90px;
+    top: 36px;
+    background: rgba(184, 93, 19, 0.534);
+}
+
+.menu ul li ul li ul:before{
+    position: absolute;
+    border-bottom: 8px solid rgba(184, 93, 19, 0.534);
+    margin-top: 18px;
+    margin-left: -14px;
+    transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

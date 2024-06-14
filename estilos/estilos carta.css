@@ -1,0 +1,77 @@
+
+/*-------------------------------------------------------------*/
+/*General*/
+*{
+    font-family: arial;
+}
+.contenedor{
+    background-color: rgba(145, 145, 145, 0.486);
+    margin-left: 500px;
+    width: 50%;
+    height: 2500px;
+    border-radius: 30px;
+    
+}
+.seccion1{
+    margin-top: 100px;
+}
+    /*-------------Estilos boton-------------*/
+    #main-container{
+        border-radius: 200px;
+        text-align: center;
+    }
+    .btn{
+        border-radius: 3px;
+        display: inline-block;
+        padding: 20px 15px;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+    .btn-green{
+        color: white;
+        background-color: #851e1e;
+    }
+    .btn:hover{
+        color: white;
+        background-color: #5e1111;
+    }
+    /*---------------------------------------------*/
+/*Estilos carta*/
+
+.imagen1{
+    position: relative;
+    height: 125px;
+}
+.menu1{
+    position: relative;
+}
+
+.texto{
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.menu2{
+    position: relative;
+}
+  /*codigo qr*/
+  
+  .codigo_qr{
+    position: absolute;
+    left: 1600px;
+    top: 2600px;
+
+  }
+  .qr{
+    width: 150px;
+    height: 150px;
+  }
+  /*redes sociales*/
+  .contenedor-abajo{
+    left: 830px;
+    top: 50px;
+    position: absolute;
+  }
+  .pie{
+      position: relative;
+  }
+

@@ -1,0 +1,75 @@
+
+/*-------------------------------------------------------------*/
+/*General*/
+*{
+    font-family: arial;
+}
+.contenedor{
+    margin-left: 500px;
+    width: 50%;
+    height: 2000px;
+    background-color: rgba(145, 145, 145, 0.486);
+    border-radius: 30px;
+}
+.seccion1{
+    margin-top: 100px;
+}
+
+/*Estilos menu fin de semana*/
+
+.imagen1{
+    position: relative;
+    height: 125px;
+}
+.menu1{
+    position: relative;
+}
+
+.texto{
+    margin-left: 200px;
+    margin-bottom: 5px;
+}
+.menu2{
+    position: relative;
+}
+/*boton*/
+#main-container{
+    border-radius: 200px;
+    text-align: center;
+}
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn-green{
+    color: white;
+    background-color: #851e1e;
+}
+.btn:hover{
+    color: white;
+    background-color: #5e1111;
+}
+  /*codigo qr*/
+  
+  .codigo_qr{
+    position: absolute;
+    left: 1600px;
+    top: 2120px;
+
+  }
+  .qr{
+    width: 150px;
+    height: 150px;
+  }
+  /*redes sociales*/
+  .contenedor-abajo{
+    left: 830px;
+    top: 50px;
+    position: absolute;
+  }
+  .pie{
+      position: relative;
+  }

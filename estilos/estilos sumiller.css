@@ -1,0 +1,58 @@
+*{
+  font-family: arial;
+}
+.titulo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.nombre{
+    font-family: blackadder ITC;
+    color: #0892c4;
+    margin-left: 100px;
+    margin-top: 25px;
+    position: absolute;
+}
+.general{
+    margin-left: 75px;
+}
+.texto{
+    width: 65%;
+    height: 600px;
+}
+.sumiller1{
+    position: absolute;
+    margin-left: 1400px;
+    width: 250px;
+}
+.sumiller2{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 400px;
+    width: 250px;
+}
+  /*codigo qr*/
+  
+  .codigo_qr2{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 400px;
+
+  }
+  .qr2{
+    width: 150px;
+    height: 150px;
+  }
+    /*redes sociales*/
+
+    /*estilo redes sociales*/
+.contenedor-abajo{
+    margin-right: 40px;
+    margin-top: 500px;
+    position: absolute;
+  }
+/*Horario*/
+.centro{
+    margin-top: 490px;
+}
+
+

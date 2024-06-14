@@ -1,0 +1,57 @@
+
+/*-------------------------------------------------------------*/
+/*General*/
+*{
+  font-family: arial;
+}
+.contenedor{
+    background-color: rgba(145, 145, 145, 0.486);
+    margin-left: 500px;
+    width: 50%;
+    height: 640px;
+    border-radius: 15px;
+    
+}
+.seccion1{
+    margin-top: 100px;
+}
+/*Estilos menu fin de semana*/
+
+.imagen1{
+    position: relative;
+    height: 125px;
+}
+.menu1{
+    position: relative;
+}
+
+.texto{
+    margin-left: 200px;
+    margin-bottom: 5px;
+}
+.menu2{
+    position: relative;
+}
+  /*codigo qr*/
+  
+  /*codigo qr*/
+  
+  .codigo_qr{
+    position: absolute;
+    left: 1600px;
+    top: 750px;
+
+  }
+  .qr{
+    width: 150px;
+    height: 150px;
+  }
+  /*redes sociales*/
+  .contenedor-abajo{
+    left: 830px;
+    top: 50px;
+    position: absolute;
+  }
+  .pie{
+      position: relative;
+  }

@@ -1,0 +1,35 @@
+.fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+}
+.formulario{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.24);
+    margin-top: 8%;
+    margin-left: 22%;
+    padding: 20px 20px;
+    width: 1000px;
+    height: 500px;
+    line-height: 1.5;
+    font-size: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.507);
+  }
+.texto{
+    position: absolute;
+    text-align: center;
+    width: 750px;
+    top: 15%;
+    left: 15%;
+}
+.texto2{
+    top: 350px;
+    left: 350px;
+    position: absolute;
+}
+.telefono{
+    color: #003cff;
+}

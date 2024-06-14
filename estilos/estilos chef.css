@@ -1,0 +1,83 @@
+.titulo{
+    margin-left: 50px;
+}
+.nombre{
+    font-family: blackadder ITC;
+    color: #0892c4;
+    margin-left: 100px;
+    margin-top: 25px;
+    position: absolute;
+}
+.titulo2{
+    margin-left: 75px;
+}
+.general{
+    margin-left: 75px;
+}
+
+/*imagenes*/
+
+.chef1{
+    width: 250px;
+    position: absolute;
+    margin-left: 1175px;
+    
+}
+.chef2{
+    width: 250px;
+    position: absolute;
+    margin-left: 1175px;
+    margin-top: 335px;
+}
+.chef3{
+    width: 250px;
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 350px;
+}
+.chef4{
+    width: 250px;
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 625px;
+}
+.chef5{
+    width: 250px;
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 900px;
+}
+.chef6{
+    width: 250px;
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 1175px;
+}
+
+/*fin imagenes*/
+.pie{
+    margin-top: 500px;
+}
+  /*codigo qr*/
+  
+  .codigo_qr{
+    position: absolute;
+    left: 1600px;
+    top: 1390px;
+
+  }
+  .qr{
+    width: 150px;
+    height: 150px;
+  }
+
+  /*redes sociales*/
+  .contenedor-abajo{
+    left: 830px;
+    top: 50px;
+    position: absolute;
+  }
+  .pie{
+      position: relative;
+  }
+

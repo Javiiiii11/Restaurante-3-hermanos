@@ -1,0 +1,259 @@
+
+
+
+  
+  /*Estilos pie pagina*/
+  .pie{
+    background: #851e1e;
+    font-family: Gill Sans;
+    overflow: hidden;
+    height: 450px;
+  }
+  .izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .abajo{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  .menu_index{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 150px;
+    color: #000000;
+    font-family: Pie
+  }
+  .horario{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 450px;
+    color: #000000;
+    font-family: Pie
+  }
+  .siguenos{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 885px;
+    color: #000000;
+    font-family: Pie
+  }
+  .contacto{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 1350px;
+    color: #000000;
+    font-family: Pie
+  }
+  .derecha{
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 470px;
+    color: #00B5F5;
+    
+  }
+  .derecha1{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 900px;
+    color: #1a1a1a;
+  }
+
+  .derecha2{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 900px;
+    color: #1a1a1a;
+  }
+  .derecha3{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 900px;
+    color: #1a1a1a;
+  }
+  .tlf{
+    color: #012485;
+  }
+  .titulos_pie{
+    font-family: Pie
+  }
+  @font-face{
+    font-family: Pie;
+    src: url("../letra/BAUHS93.TTF");
+  }
+  /*menu index*/
+
+  .menu_index1{
+    margin-left: 100px;
+    margin-top: 35px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+  .menu_index2{
+    margin-left: 100px;
+    margin-top: 55px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+  .menu_index2-3{
+    margin-left: 100px;
+    margin-top: 75px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+  .menu_index3{
+    margin-left: 100px;
+    margin-top: 95px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+  .menu_index3-4{
+    margin-left: 100px;
+    margin-top: 115px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+  .menu_index4{
+    margin-left: 100px;
+    margin-top: 135px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+  .menu_index5{
+    margin-left: 100px;
+    margin-top: 155px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+  .menu_index6{
+    margin-left: 100px;
+    margin-top: 175px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+  .menu_index7{
+    margin-left: 100px;
+    margin-top: 195px;
+    position: absolute;
+    color: #1a1a1a;
+  }
+
+  .menu_index1:hover{
+    color: #012485;
+  }
+  .menu_index2:hover{
+    color: #012485;
+  }
+  .menu_index2-3:hover{
+    color: #012485;
+  }
+  .menu_index3:hover{
+    color: #012485;
+  }
+  .menu_index3-4:hover{
+    color: #012485;
+  }
+  .menu_index4:hover{
+    color: #012485;
+  }
+  .menu_index5:hover{
+    color: #012485;
+  }
+  .menu_index6:hover{
+    color: #012485;
+  }
+  .menu_index7:hover{
+    color: #012485;
+  }
+  /*Horario*/
+
+  .centro{
+    margin-left: 435px;
+    top: 580px;
+    position: absolute;
+    color: #00B5F5;
+  }
+  .horario1{
+    margin-top: 60px;
+    position: absolute;
+    color: #1a1a1a;
+    text-decoration: underline;
+  }
+  .horario2{
+    margin-top: 90px;
+    position: absolute;
+    color: #1a1a1a;
+    text-decoration: underline;
+  }
+  .horario3{
+    margin-top: 120px;
+    position: absolute;
+    color: #1a1a1a;
+    text-decoration: underline;
+  }
+  .horario4{
+    margin-top: 150px;
+    position: absolute;
+    color: #1a1a1a;
+    text-decoration: underline;
+  }
+  .horario5{
+    margin-top: 180px;
+    position: absolute;
+    color: #1a1a1a;
+    text-decoration: underline;
+  }
+  .horario6{
+    margin-top: 210px;
+    position: absolute;
+    color: #1a1a1a;
+    text-decoration: underline;
+  }
+  .horario7{
+    margin-top: 240px;
+    position: absolute;
+    color: #1a1a1a;
+    text-decoration: underline;
+  }
+  /*codigo qr*/
+  
+  .codigo_qr2{
+    position: absolute;
+    left: 1650px;
+    top: 650px;
+
+  }
+  .qr2{
+    width: 150px;
+    height: 150px;
+  }
+
+  /*debajo del pie*/
+
+  .subpie{
+    height: 40px;
+    width: 100%;
+    background-color: #5e1111;
+  }
+  .fin{
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+  .fin2{
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1600px;
+  }
+  /*estilo redes sociales*/
+.contenedor-abajo{
+  left: 880px;
+  top: 650px;
+  position: absolute;
+}
